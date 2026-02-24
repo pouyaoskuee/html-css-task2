@@ -16,9 +16,9 @@
                     <use xlink:href="/assets/svg-sprite.svg#profile"></use>
                 </svg>
             </div>
-            <div class="profile__name">
+            <div class="profile__info">
                 <p>رضا جنیدی</p>
-                <p>۰۹۰۱۲۴۳۸۷۳</p>
+                <p class="profile__phone">۰۹۰۱۲۴۳۸۷۳</p>
             </div>
             <div class="profile__edite">
                 <svg>
@@ -41,8 +41,8 @@
             <h3>سفارشات من</h3>
         </div>
         <div class="orders__info">
-            <div class="info__card">
-                <div>
+            <div class="info__card active">
+                <div class="card--Processing">
                     <svg><use xlink:href="/assets/svg-sprite.svg#clock"></use></svg>
                 </div>
 
@@ -52,51 +52,99 @@
                 </div>
             </div>
             <div class="info__card">
-                <div>
-                    <svg><use xlink:href="/assets/svg-sprite.svg#clock"></use></svg>
+                <div class="card--check">
+                    <svg><use xlink:href="/assets/svg-sprite.svg#check"></use></svg>
                 </div>
 
                 <div class="info__details">
                     <p>درحال پردازش</p>
-                    <p> ۵ سفارش</p>
+                    <p> ۴ سفارش</p>
                 </div>
             </div>
             <div class="info__card">
-                <div>
-                    <svg><use xlink:href="/assets/svg-sprite.svg#clock"></use></svg>
+                <div class="card--returns">
+                    <svg><use xlink:href="/assets/svg-sprite.svg#return"></use></svg>
                 </div>
 
                 <div class="info__details">
                     <p>درحال پردازش</p>
-                    <p> ۵ سفارش</p>
+                    <p> ۲ سفارش</p>
                 </div>
             </div>
             <div class="info__card">
-                <div>
-                    <svg><use xlink:href="/assets/svg-sprite.svg#clock"></use></svg>
+                <div class="card--cancel">
+                    <svg><use xlink:href="/assets/svg-sprite.svg#cancel"></use></svg>
                 </div>
 
                 <div class="info__details">
                     <p>درحال پردازش</p>
-                    <p> ۵ سفارش</p>
+                    <p> ۳ سفارش</p>
                 </div>
             </div>
         </div>
         <div class="orders__cards">
             <div class="order__card">
-                <div>درحال پردازش<span>svg</span></div>
-                <div><p>تاریخ تحویل سفارش</p></div>
-                <div><p>کد سفارش</p></div>
-                <div>۱۵۰۰۰۰</div>
-                <div>
-                    <div></div>
-                    <div><span>svg</span>جزعیات سفارش</div>
+                <div class="card__status active">
+                    <svg><use xlink:href="/assets/svg-sprite.svg#clock"></use></svg> <span>درحال پردازش</span>
+                </div>
+
+                <div class="card__description">
+                    <div><span class="text--light">تاریخ تحویل سفارش :</span> <span>1403/05/07</span></div>
+                    <div><span class="text--light" >کد سفارش : </span><span>2165449</span></div>
+                    <div><span class="text--bold">۱,۵۵۰,۰۰۰</span> <span>تومان</span></div>
+                </div>
+
+                <div class="card__Details">
+                    <div class="details__img">
+                        <div class="details__img__container">
+                            <img src="/assets/images/image-1.webp" alt="image-1">
+                            <span>۱</span>
+                        </div>
+                        <div class="details__img__container">
+                            <img src="/assets/images/image-2.webp" alt="image-2">
+                            <span>۱</span>
+                        </div>
+                        <div class="details__img__container">
+                            <img src="/assets/images/image-3.webp" alt="image-3">
+                            <span>۳</span>
+                        </div>
+                    </div>
+                    <button> <span>جزعیات سفارش </span><svg><use xlink:href="/assets/svg-sprite.svg#chevron-revers"></use></svg></button>
                 </div>
             </div>
-            <div class="order__card"></div>
+            <div class="order__card">
+                <div class="card__status active">
+                    <svg><use xlink:href="/assets/svg-sprite.svg#clock"></use></svg> <span>درحال پردازش</span>
+                </div>
+
+                <div class="card__description">
+                    <div><span class="text--light">تاریخ تحویل سفارش :</span> <span>1403/05/07</span></div>
+                    <div><span class="text--light" >کد سفارش : </span><span>2165449</span></div>
+                    <div><span class="text--bold">۱,۵۵۰,۰۰۰</span> <span>تومان</span></div>
+                </div>
+
+                <div class="card__Details">
+                    <div class="details__img">
+                        <div class="details__img__container">
+                            <img src="/assets/images/image-1.webp" alt="image-1">
+                            <span>۱</span>
+                        </div>
+                        <div class="details__img__container">
+                            <img src="/assets/images/image-2.webp" alt="image-2">
+                            <span>۱</span>
+                        </div>
+                        <div class="details__img__container">
+                            <img src="/assets/images/image-3.webp" alt="image-3">
+                            <span>۳</span>
+                        </div>
+                    </div>
+                    <button> <span>جزعیات سفارش </span><svg><use xlink:href="/assets/svg-sprite.svg#chevron-revers"></use></svg></button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 
 
 
